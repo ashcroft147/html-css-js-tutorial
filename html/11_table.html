@@ -1,13 +1,51 @@
 <!Doctype html>
 <html>
     <head>
-        <title>08_list</title>
+        <title>11_table</title>
         <meta charset="EUC-KR">
+        <style>
+            table, th, td {
+                border: 1px solid purple
+            }
+        </style>
     </head>
     <body>
-        <ol>
-            <li>항목</li>
-            <li>항목</li>
-        </ol>
+       <table>
+           <tr>
+               <th>이름</th>
+               <th>나이</th>
+               <th>팀</th>
+           </tr>
+           <tr>
+               <td>김우섭</td>
+               <td>35</td>
+               <td>MES운영팀</td>
+           </tr>
+           <tr>
+               <td>김유홍</td>
+               <td>38</td>
+               <td>SCM운영팀</td>               
+           </tr>
+       </table>
+       <br>
+       <hr>
+       <br>
+       <!-- 셀병합 Start -->
+       <table>
+           <tr>
+               <th colspan="2">응시자</th>
+               <th rowspan="2">점수</th>
+           </tr>
+           <tr>
+               <th>이름</th>
+               <th>나이</th>
+           </tr>
+           <tr>
+               <td>양준석</td>
+               <td>37</td>
+               <td>60</td>               
+           </tr>
+       </table>       
+       <!-- 셀병합 End -->
     </body>
 </html>
