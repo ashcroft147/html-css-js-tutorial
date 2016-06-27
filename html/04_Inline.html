@@ -1,12 +1,28 @@
 <!Doctype html>
 <html>
 	<head>
-    	<title>HTML Tutorial</title>
+    	<title>Inline</title>
     	<meta charset="EUC-KR">
+    	<style type="text/css">
+			strong {
+			background-color: yellow;
+			}
+			a {
+			background-color: pink;
+			}
+			span {
+			background-color: green;
+			}		
+			span > div {
+			background-color: powderblue;
+			}
+    	</style>		
 	</head>
 	<body>
     	<strong>strong은 Inline 요소</strong>
     	<a href="#">a는 블록 요소</a>
     	<span>span는 블록 요소</span>
+ 		<!-- 인라인 내의 블록 요소 -->
+    	<span><div>span 내의 div 요소</div></span>		
     </body>
 </html>

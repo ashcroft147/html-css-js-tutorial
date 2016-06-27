@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 	<head>
-    	<title>HTML Tutorial</title>
+    	<title>Block</title>
     	<meta charset="EUC-KR">
     	<style type="text/css">
     	h1 {
@@ -13,11 +13,23 @@
     	div {
       	background-color: green;
     	}
+		div > p {
+      	background-color: orange;
+    	}		
+		div > span {
+      	background-color: powderblue;
+    	}
     	</style>
 	</head>
 	<body>
     	<h1>h1은 블록 요소</h1>
     	<p>p는 블록 요소</p>
-        <div>div는 블록 요소</div>
+		<div>div는 블록 요소</div>
+		<!-- 블락요소 안의 블록 요소 -->
+		<br>
+        <div><p>div 안의 p 요소</p></div>		
+		<!-- 블락요소 안의 인라인 요소 -->
+		<br>
+        <div><span>div 안의 span 요소</span></div>
 	</body>
 </html>
