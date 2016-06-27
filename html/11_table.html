@@ -1,52 +1,85 @@
 <!Doctype html>
 <html>
-    <head>
-        <title>11_table</title>
-        <meta charset="EUC-KR">
-        <style>
-            table, th, td {
-                border: 1px solid purple
-            }
-        </style>
-    </head>
-    <body>
-       <table>
-           <tr>
-               <th>이름</th>
-               <th>나이</th>
-               <th>팀</th>
-           </tr>
-           <tr>
-               <td>김우섭</td>
-               <td>35</td>
-               <td>MES운영팀</td>
-           </tr>
-           <tr>
-               <td>김유홍</td>
-               <td>38</td>
-               <td>SCM운영팀</td>               
-           </tr>
-       </table>
-       <br>
-       <hr>
-       <br>
-       <!-- 셀병합 Start -->
-       <table>
-           <caption>2014년 8월 지출 내역</caption>
-           <tr>
-               <th colspan="2">응시자</th>
-               <th rowspan="2">점수</th>
-           </tr>
-           <tr>
-               <th>이름</th>
-               <th>나이</th>
-           </tr>
-           <tr>
-               <td>양준석</td>
-               <td>37</td>
-               <td>60</td>               
-           </tr>
-       </table>       
-       <!-- 셀병합 End -->
-    </body>
+
+<head>
+    <title>11_table</title>
+    <meta charset="EUC-KR">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid purple;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>팀</th>
+        </tr>
+        <tr>
+            <td>김우섭</td>
+            <td>35</td>
+            <td>MES운영팀</td>
+        </tr>
+        <tr>
+            <td>김유홍</td>
+            <td>38</td>
+            <td>SCM운영팀</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!-- 셀병합 Start -->
+    <table>
+        <caption>시험 응시 내역</caption>
+        <tr>
+            <th colspan="2">응시자</th>
+            <th rowspan="2">점수</th>
+        </tr>
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+        </tr>
+        <tr>
+            <td>양준석</td>
+            <td>37</td>
+            <td>60</td>
+        </tr>
+    </table>
+    <!-- 셀병합 End -->
+    <br>
+    <hr>
+    <br>
+    <table border="1">
+        <caption>책목록</caption>
+        <thead>
+            <tr>
+                <th>제목</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">저작권: 해리포터</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>헤리포터</td>
+                <td>29,000</td>
+            </tr>
+            <tr>
+                <td>반지의제왕</td>
+                <td>30,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
 </html>
