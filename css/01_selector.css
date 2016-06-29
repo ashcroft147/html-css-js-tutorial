@@ -1,0 +1,48 @@
+/* Universal Selector */
+* {
+    margin:0;
+    text-decoration: underline;
+}
+/* tag selector */
+legend { 
+    background-color: yellow
+}
+/* class selector */
+.message {
+    color: darkgreen;
+}
+
+/* id selector */
+#id {
+    background: yellowgreen;
+}
+
+/* Combinator Descendant */
+section .erp {
+    background: yellowgreen;
+}
+
+/* Combinator child */
+ol > .mes {
+    background: pink;
+}
+
+/* Combinator child */
+h1+ul {
+    background: darkgoldenrod;
+}
+
+/* Combinator child */
+h1~ol {
+    background: darkcyan;
+}
+
+/* Attribue Selector */
+input[value="submit"] {
+    background: gray;
+}
+
+/* Pseudo Classes Selector */
+input[value="submit"]:hover {
+    background: greenyellow;
+}

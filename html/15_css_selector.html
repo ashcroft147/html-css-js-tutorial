@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>New in HTML5</title>
+        <meta charset="EUC-KR">
+        <link rel="stylesheet" type="text/css" href="../css/01_selector.css">
+    </head>
+    <body >
+        <header>
+            <h1>test Adjacent Sibling Combinator</h1>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+            <h1>test General Sibling Combinator</h1>
+            <ol>
+                <li>a</li>
+                <li>b</li>
+            </ol>
+        </header>
+        <!--datalist -->
+        <form action = "#" accept-charset="utf-8" name = "datalist" method = "get"> 
+            <fieldset style = "width:350">
+                <legend>HTML5 < 입력 값 후보 ></legend>
+                    <br><span class="message">자주 사용하는 웹 브라우저를 입력해주세요.</span><br>
+                    <input type = "text" name = "browser" list = "browser" placeholder="브라우저 선택">
+                    <datalist id = "browser">
+                        <option value = "크롬">Google</option>
+                        <option value = "파이어폭스">Mozilla</option>
+                        <option value = "사라피">Apple</option>
+                        <option value = "익스플로러">MicroSoft</option>
+                    </datalist>
+                    <br><br>
+                    <input type = "submit" value = "submit"/>
+                    <input type = "reset" value = "reset"/><br><br>
+            </fieldset> 
+        </form>
+        <br>
+        <hr>
+        <!--date-->
+        <form action = "#" accept-charset="utf-8" name = "datalist" method = "get"> 
+            <fieldset style = "width:350">
+                <legend>HTML5 < date ></legend>
+                    <br>
+                    날짜 입력<br>
+                    <input type = "date" min = "1987-07-01" max = "2014-03-01" name = "date" step = "7">
+                    <br><br>
+                    <input type = "submit" value = "submit"/>
+                    <input type = "reset" value = "reset"/><br><br>
+            </fieldset>
+        </form>
+        <br>
+        <hr>
+        <!--color-->               
+        <form action = "#" accept-charset="utf-8" name = "datalist" method = "get"> 
+            <fieldset style = "width:350">
+                <legend>HTML5 < color ></legend>
+                   color : <input type = "color" color = "color">    
+            </fieldset>
+            <br><br>
+            <input type = "submit" value = "submit"/>
+            <input type = "reset" value = "reset"/><br><br>
+        </form>
+        <section>
+            <article>
+                <p id="id">id selector</p>
+            </article>
+        </section>  
+        <section>
+            <article>
+                <ol>
+                    <li class="mes">MES</li>
+                    <li class="erp">ERP</li>
+                </ol>
+            </article>
+        </section>            
+    </body>
+</html> 
