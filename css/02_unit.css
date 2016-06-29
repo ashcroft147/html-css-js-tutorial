@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    /*background-image: url('../img/html5.png');*/
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/CSS3_and_HTML5_badges.svg'); */
+}
+
+thead th {
+    font-size: 1.5em;
+}
+
+/* display */
+p {
+    background-color: purple;
+    display: inline;
+}
+
+span {
+    background-color: red;
+    display: block;
+}
+
+div.first {
+    background-color: green;
+    display: none;
+}
+
+div.second {
+    background-color: purple;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}

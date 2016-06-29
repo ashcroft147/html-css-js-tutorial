@@ -1,0 +1,26 @@
+/* display */
+p {
+    background-color: purple;
+    display: inline;
+    margin: 30px;
+    visibility: hidden;
+}
+
+span {
+    background-color: red;
+    display: block;
+}
+
+div.first {
+    background-color: green;
+    display: none;
+}
+
+div.second {
+    background-color: purple;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    opacity: 0.5
+}

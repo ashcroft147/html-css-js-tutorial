@@ -1,0 +1,9 @@
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-width: thick;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
