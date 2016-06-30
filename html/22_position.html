@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--link rel="stylesheet" type="text/css" href="../css/08_position.css"-->
+    <style>
+        .box {
+            padding: 10px;
+            border: 1px solid green;
+        }
+        #box1 {
+            position: static;
+            top: 20px;
+            right: 30px
+        }
+        #box2 {
+            position: absolute;
+            top: 20px;
+            left: 30px
+        }
+        #box3 {
+            position: relative;
+            top: 20px;
+            left: 30px
+        }
+        #box4 {
+            position: fixed;
+            top: 20px;
+            right: 30px
+        }
+        img {
+            position: absolute;
+            top: 20px;
+            right: 30px;            
+            /*z-index: -1;*/
+        }     
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">static 박스</div>
+    <div id="box2" class="box">absolute 박스</div>
+    <div id="box3" class="box">relative 박스</div>
+    <div id="box4" class="box">fixed 박스</div>
+    <!--img = src="../img/html5.png"></img-->
+</body>
+</html>

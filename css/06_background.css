@@ -1,0 +1,7 @@
+body {
+    background-image: url("../img/bg-image.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+}
