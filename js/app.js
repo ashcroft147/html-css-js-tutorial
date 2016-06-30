@@ -1,2 +1,2 @@
-var testVariable = "This is app.js";
-console.log(testVariable); 
+var printApp = "This is app.js";
+console.log(printApp); 
