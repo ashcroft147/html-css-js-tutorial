@@ -8,25 +8,3 @@ thead th {
     font-size: 1.5em;
 }
 
-/* display */
-p {
-    background-color: purple;
-    display: inline;
-}
-
-span {
-    background-color: red;
-    display: block;
-}
-
-div.first {
-    background-color: green;
-    display: none;
-}
-
-div.second {
-    background-color: purple;
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-}
